@@ -1,0 +1,43 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { GreeterComponent } from './greeter/greeter.component';
+
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterModule } from '@angular/router'; 
+
+import { HomeComponent } from './home/home.component';
+import { TodosComponent } from './2-todos/todos.component';
+import { UserDetailsComponent } from './3-user-details/user-details.component';
+import { VoterComponent } from './1-voter/voter.component';
+
+import { UsersComponent } from './users/users.component';
+import { HighlightDirective } from './highlight.directive';
+import { NavComponent } from './nav/nav.component'; 
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    GreeterComponent,
+    HomeComponent,
+    TodosComponent,
+    UserDetailsComponent,
+    VoterComponent,
+    UsersComponent,
+    HighlightDirective,
+    NavComponent
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    BrowserModule,
+    FormsModule,
+    HttpClientModule
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
