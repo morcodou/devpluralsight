@@ -20,3 +20,7 @@ class ModuleTable {
     var cell = hrow.insertCell(0);
     cell.innerHTML = "Module ID";
   }
+https://riptutorial.com/rxjs/example/28035/sending-multiple-sequential-http-requests
+  https://codecraft.tv/courses/angular/http/http-with-observables/
+  
+  
